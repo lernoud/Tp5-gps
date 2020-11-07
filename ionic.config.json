@@ -1,0 +1,7 @@
+{
+  "name": "projetJordan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
