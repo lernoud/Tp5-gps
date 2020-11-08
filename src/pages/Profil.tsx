@@ -1,22 +1,21 @@
-import { 
-  IonList, 
-  IonItem, 
-  IonLabel, 
-  IonInput, 
-  IonToggle, 
-  IonRadio, 
-  IonCheckbox, 
-  IonItemSliding, 
-  IonItemOption, 
-  IonItemOptions, 
-  IonContent, 
-  IonHeader, 
-  IonPage, 
-  IonTitle, 
-  IonToolbar 
+import {
+  IonList,
+  IonItem,
+  IonLabel,
+  IonInput,
+  IonToggle,
+  IonRadio,
+  IonCheckbox,
+  IonItemSliding,
+  IonItemOption,
+  IonItemOptions,
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar
 } from '@ionic/react';
 import React from 'react';
-// import ListPage from '../components/ListPage';
 import Name from '../components/profil'
 
 const Profil: React.FC = () => {
