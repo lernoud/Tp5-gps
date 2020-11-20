@@ -7,7 +7,8 @@ import {
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
-  IonTabs
+  IonTabs,
+  IonTitle
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
@@ -50,6 +51,7 @@ const App: React.FC = () => (
           <IonTabButton tab="profil" href="/profil">
             <IonIcon icon={ellipse} />
             <IonLabel>Profil</IonLabel>
+            <IonTitle>MODIFICATION TANOU</IonTitle>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
